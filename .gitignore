@@ -68,3 +68,4 @@ Build_dbfquery.bat
 *.tds
 *.c
 *.obj
+*.~*
