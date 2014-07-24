@@ -1,0 +1,401 @@
+<!--
+################################################
+# xDevStudio Project - xdev@kssoftware.com.br  #
+# Created @ 22/07/2014 13:06:16                #
+#                                              #
+### Standard xDev TagList - Layout v1.5 ########
+-->
+<taglist>
+   <tag filename="C:\Des\fivewin\dbfquery\principal.prg" name="curdrive" args=" " scope="PUBLIC" type="ptFunction" line="542">
+   <tag filename="C:\Des\fivewin\dbfquery\principal.prg" name="View" args="<cFileName>, <oWnd> " scope="PUBLIC" type="ptFunction" line="519">
+   <tag filename="C:\Des\fivewin\dbfquery\principal.prg" name="EditMemo" args="<oBrw> " scope="PUBLIC" type="ptFunction" line="508">
+   <tag filename="C:\Des\fivewin\dbfquery\principal.prg" name="FWAdoSaveRecord" args="<oRS>, <aRecord>, <nRecNo> " scope="PUBLIC" type="ptFunction" line="432">
+   <tag filename="C:\Des\fivewin\dbfquery\principal.prg" name="ADOEdit" args=" " scope="PUBLIC" type="ptFunction" line="365">
+   <tag filename="C:\Des\fivewin\dbfquery\principal.prg" name="SetEditType" args="<oRecordSetConsulta>, <oBrw>, <oBtnSave> " scope="PUBLIC" type="ptFunction" line="326">
+   <tag filename="C:\Des\fivewin\dbfquery\principal.prg" name="RSLoadRecord" args=" " scope="PUBLIC" type="ptFunction" line="314">
+   <tag filename="C:\Des\fivewin\dbfquery\principal.prg" name="RSDelRecord" args="<oBrw> " scope="PUBLIC" type="ptFunction" line="293">
+   <tag filename="C:\Des\fivewin\dbfquery\principal.prg" name="RSAppendBlank" args="<oRs> " scope="PUBLIC" type="ptFunction" line="238">
+   <tag filename="C:\Des\fivewin\dbfquery\principal.prg" name="SqlQuery" args="<cSqlSintax> " scope="PUBLIC" type="ptFunction" line="170">
+   <tag filename="C:\Des\fivewin\dbfquery\principal.prg" name="configuraDiretorio" args=" " scope="PUBLIC" type="ptFunction" line="148">
+   <tag filename="C:\Des\fivewin\dbfquery\principal.prg" name="ExecutaConsulta" args=" " scope="PUBLIC" type="ptFunction" line="125">
+   <tag filename="C:\Des\fivewin\dbfquery\principal.prg" name="pesquisanoResultSet" args=" " scope="PUBLIC" type="ptFunction" line="95">
+   <tag filename="C:\Des\fivewin\dbfquery\principal.prg" name="Main" args=" " scope="PUBLIC" type="ptFunction" line="5">
+   <tag filename="C:\Des\fivewin\dbfquery\principal.prg" name="DIRAPP" args=" " scope="PUBLIC" type="ptConstant" line="4">
+   <tag filename="C:\Des\fivewin\dbfquery\principal.prg" name="COMPILAR" args="<x> " scope="PUBLIC" type="ptPseudoFUNC" line="3">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="FW_ArrSum" args="<aArray>, <bnCol>, <nStart>, <nCount> " scope="PUBLIC" type="ptFunction" line="13513">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="XbrEditMemo" args="<nRow>, <nCol>, <oCol>, <nKey>, <cTitle> " scope="PUBLIC" type="ptFunction" line="13490">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="XBrImageEdit" args="<cBuf>, <cTitle>, <lReadOnly> " scope="PUBLIC" type="ptFunction" line="13422">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="XbrHexEdit" args="<cVal>, <cTitle>, <lReadOnly> " scope="PUBLIC" type="ptFunction" line="13362">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="xEval" args="<.><.><.> " scope="PUBLIC" type="ptFunction" line="13342">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="IsImageData" args="<cBuf> " scope="PUBLIC" type="ptFunction" line="13329">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="FieldTypeAdoToDbf" args="<nType> " scope="PUBLIC" type="ptFunction" line="13316">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="XbrGetSelectAll" args="<uNew> " scope="PUBLIC" type="ptFunction" line="13302">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="XbrSQLRDDmode" args="<nSet> " scope="PUBLIC" type="ptFunction" line="13288">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="d2ado" args="<dDate> " scope="PUBLIC" type="ptFunction" line="13274">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="SeekDate" args="<cSeek>, <dDefault> " scope="PUBLIC" type="ptFunction" line="13247">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="XBrAdoDelete" args="<oBrw> " scope="PUBLIC" type="ptFunction" line="13227">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="XbrAdoSave" args="<oBrw> " scope="PUBLIC" type="ptFunction" line="13197">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="adoIsEmptyRow" args="<oRs> " scope="PUBLIC" type="ptFunction" line="13181">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="XbrLbxLookUp" args="<uVal>, <aBound>, <aText> " scope="PUBLIC" type="ptFunction" line="13158">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="ArrMerge" args="<aArray1>, <aArray2> " scope="PUBLIC" type="ptFunction" line="13141">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="ArrTranspose" args="<aArray>, <lSquare> " scope="PUBLIC" type="ptFunction" line="13106">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="SetKinetic" args="<lOnOff> " scope="PUBLIC" type="ptFunction" line="13090">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="DrawVert" args="<hDC>, <nCol>, <nTop>, <nBottom>, <hPen> " scope="PUBLIC" type="ptFunction" line="13085">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="DrawHorz" args="<hDC>, <nRow>, <nLeft>, <nRight>, <hPen> " scope="PUBLIC" type="ptFunction" line="13080">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="DrawPen" args="<hDC>, <aFromRC>, <aUptoRC>, <hPen> " scope="PUBLIC" type="ptFunction" line="13069">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="CreateLinePen" args="<oBrw>, <nLineStyle>, <nPenStyle>, <nWidth>, <nColor> " scope="PUBLIC" type="ptFunction" line="13043">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="CreateColorBrush" args="<uClr> " scope="PUBLIC" type="ptFunction" line="13033">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="ContrastColor" args="<hDC>, <nCol>, <nRow>, <nWidth>, <nHeight>, <nDefClr> " scope="PUBLIC" type="ptFunction" line="13005">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="SameAdoStruct" args="<oBrw>, <oRs> " scope="PUBLIC" type="ptFunction" line="12980">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="SameDbfStruct" args="<oBrw>, <cAlias> " scope="PUBLIC" type="ptFunction" line="12957">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="OnError" args="<uParam1> " scope="PUBLIC" type="ptMethod" line="12930">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="Modified" args=" " scope="PUBLIC" type="ptMethod" line="12924">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="Save" args=" " scope="PUBLIC" type="ptMethod" line="12883">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="New" args="<oBrw>, <nRecNo>, <nKeyNo>, <aHeaders>, <aValues> " scope="PUBLIC" type="ptMethod" line="12870">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="Undo" args=" " scope="PUBLIC" type="ptFunction" line="12861">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="SetXBrowse" args="<bChild> " scope="PUBLIC" type="ptFunction" line="12826">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="TXBrows" args="<bChild> " scope="PUBLIC" type="ptFunction" line="12809">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="xbrNumFormat" args="<.><.><.> " scope="PUBLIC" type="ptFunction" line="12804">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="XbrJustify" args="<oBrw>, <aJust> " scope="PUBLIC" type="ptFunction" line="12799">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="aObjStructure" args="<obj> " scope="PUBLIC" type="ptFunction" line="12788">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="MEMBER_NAME" args=" " scope="PUBLIC" type="ptConstant" line="12786">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="aObjData" args="<obj> " scope="PUBLIC" type="ptFunction" line="12766">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="XBrowsableObj" args="<oObj> " scope="PUBLIC" type="ptFunction" line="12752">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="GetOleProperties" args="<o> " scope="PUBLIC" type="ptFunction" line="12727">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="IsXlRange" args="<o> " scope="PUBLIC" type="ptFunction" line="12707">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="IsRecordSet" args="<o> " scope="PUBLIC" type="ptFunction" line="12683">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="XbrwSetDataSource" args="<oBrw>, <uDataSrc>, <lAddCols>, <lAutoSort>, <aCols>, <aRows>, <aHeaders>, <bChange> " scope="PUBLIC" type="ptFunction" line="12551">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="CheckArray" args="<aArray> " scope="PUBLIC" type="ptFunction" line="12538">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="XbrowseNew" args="<oWnd>, <nRow>, <nCol>, <nWidth>, <nHeight>, <aFlds>, <aHeaders>, <aColSizes>, <bChange>, <bLDblClick>, <bRClick>, <oFont>, <oCursor>, <nClrFore>, <nClrBack>, <cMsg>, <lUpdate>, <cDataSrc>, <bWhen>, <lDesign>, <bValid>, <lPixel>, <nResID>, <lAutoSort>, <lAddCols>, <aPics>, <aCols>, <aJust>, <aSort>, <lFooter>, <lFastEdit>, <lCell>, <lLines>, <aRows>, <uBack>, <cBckMode>, <bClass>, <lTransparent>, <lNoBorder>, <cVarName> " scope="PUBLIC" type="ptFunction" line="12339">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="ArrayResize" args="<aData>, <nSize> " scope="PUBLIC" type="ptFunction" line="12307">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="ClipTextAsArray" args="<cText> " scope="PUBLIC" type="ptFunction" line="12287">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="FontEsc" args="<oFont> " scope="PUBLIC" type="ptFunction" line="12275">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="EQ" args="<uFirst>, <uSecond>, <lExact>, <lCaseSensitive> " scope="PUBLIC" type="ptFunction" line="12239">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="ExtractLine" args="<cText>, <nFrom> " scope="PUBLIC" type="ptFunction" line="12221">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="FontHeight" args="<oBrw>, <oFont> " scope="PUBLIC" type="ptFunction" line="12207">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="GetZeroZeroClr" args="<hDC>, <hBmp> " scope="PUBLIC" type="ptFunction" line="12193">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="MergeArea" args="<nTop>, <nBottom>, <nRowPos> " scope="PUBLIC" type="ptMethod" line="12170">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="HasBorder" args="<nRowPos> " scope="PUBLIC" type="ptMethod" line="12155">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="HandleEvent" args="<nMsg>, <nWParam>, <nLParam> " scope="PUBLIC" type="ptMethod" line="12146">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="WorkMergeData" args=" " scope="PUBLIC" type="ptMethod" line="12107">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="Paste" args="<cText> " scope="PUBLIC" type="ptMethod" line="12088">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="ToExcel" args="<oSheet>, <nRow>, <nCol> " scope="PUBLIC" type="ptMethod" line="12030">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="ClpText" args=" " scope="PUBLIC" type="ptMethod" line="11972">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="ACompare" args="<x>, <y>, <nAt>, <lCaseSensitive> " scope="PUBLIC" type="ptFunction" line="11938">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="SortArrayData" args=" " scope="PUBLIC" type="ptMethod" line="11897">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="SetOrder" args=" " scope="PUBLIC" type="ptMethod" line="11742">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="SumOfCols" args="<aCols>, <nType> " scope="PUBLIC" type="ptMethod" line="11673">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="RecalcTotal" args="<nOldVal>, <nNewVal> " scope="PUBLIC" type="ptMethod" line="11617">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="PostEdit" args="<xValue>, <lButton>, <lDirectAssign> " scope="PUBLIC" type="ptMethod" line="11489">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="RunBtnAction" args="<nKey> " scope="PUBLIC" type="ptMethod" line="11451">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="ShowBtnList" args="<nKey> " scope="PUBLIC" type="ptMethod" line="11350">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="EditDateTime" args="<nKey> " scope="PUBLIC" type="ptMethod" line="11275">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="EditGetkeyDown" args="<Self>, <nKey> " scope="PUBLIC" type="ptFunction" line="11220">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="EditGetLostFocus" args="<oGet>, <hWndFocus>, <oBrw>, <oEditGet>, <oCol> " scope="PUBLIC" type="ptFunction" line="11192">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="fnAddBitmap" args="<o>, <uBmp> " scope="PUBLIC" type="ptFunction" line="11150">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="Edit" args="<nKey> " scope="PUBLIC" type="ptMethod" line="10927">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="IsEditKey" args="<cKey> " scope="PUBLIC" type="ptMethod" line="10892">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="nEditType" args="<nType> " scope="PUBLIC" type="ptMethod" line="10881">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="ChangeBitmap" args=" " scope="PUBLIC" type="ptMethod" line="10863">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="CreateButtons" args=" " scope="PUBLIC" type="ptMethod" line="10814">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="MouseMove" args="<nMRow>, <nMCol>, <nFlags> " scope="PUBLIC" type="ptMethod" line="10763">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="ResizeEnd" args="<nMRow>, <nMCol>, <nFlags> " scope="PUBLIC" type="ptMethod" line="10743">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="ResizeBeg" args="<nMRow>, <nMCol>, <nFlags> " scope="PUBLIC" type="ptMethod" line="10724">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="FooterLButtonUp" args="<nMRow>, <nMCol>, <nFlags> " scope="PUBLIC" type="ptMethod" line="10708">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="FooterLButtonDown" args="<nMRow>, <nMCol>, <nFlags> " scope="PUBLIC" type="ptMethod" line="10695">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="HeaderLButtonUp" args="<nMRow>, <nMCol>, <nFlags> " scope="PUBLIC" type="ptMethod" line="10643">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="HeaderLButtonDown" args="<nMRow>, <nMCol>, <nFlags> " scope="PUBLIC" type="ptMethod" line="10627">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="DefStyle" args="<nAlign>, <lSingleLine> " scope="PUBLIC" type="ptMethod" line="10599">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="Box" args="<nRow>, <nCol>, <nHeight>, <nType> " scope="PUBLIC" type="ptMethod" line="10565">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="EraseData" args="<nRow>, <nCol>, <nHeight>, <hBrush>, <lFixHeight> " scope="PUBLIC" type="ptMethod" line="10512">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="PaintCell" args="<nRow>, <nCol>, <nHeight>, <lHighLite>, <lSelected>, <nOrder>, <nPaintRow> " scope="PUBLIC" type="ptMethod" line="10042">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="PaintData" args="<nRow>, <nCol>, <nHeight>, <lHighLite>, <lSelected>, <nOrder>, <nPaintRow> " scope="PUBLIC" type="ptMethod" line="10012">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="SetColsAsRows" args="<.><.><.> " scope="PUBLIC" type="ptMethod" line="9990">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="DataCol" args=" " scope="PUBLIC" type="ptMethod" line="9971">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="RefreshFooter" args=" " scope="PUBLIC" type="ptMethod" line="9961">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="PaintFooter" args="<nRow>, <nCol>, <nHeight>, <lInvert> " scope="PUBLIC" type="ptMethod" line="9859">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="footerStr" args=" " scope="PUBLIC" type="ptMethod" line="9817">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="nFooterType" args="<nType> " scope="PUBLIC" type="ptMethod" line="9796">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="PaintHeader" args="<nRow>, <nCol>, <nHeight>, <lInvert>, <hDC>, <nGrpWidth>, <aBitmap> " scope="PUBLIC" type="ptMethod" line="9624">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="nWidthChr" args="<nChars> " scope="PUBLIC" type="ptMethod" line="9605">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="DataWidth" args=" " scope="PUBLIC" type="ptMethod" line="9542">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="DataHeight" args=" " scope="PUBLIC" type="ptMethod" line="9487">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="FooterWidth" args=" " scope="PUBLIC" type="ptMethod" line="9461">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="FooterHeight" args=" " scope="PUBLIC" type="ptMethod" line="9439">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="HeaderWidth" args=" " scope="PUBLIC" type="ptMethod" line="9407">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="HeaderHeight" args="<lGrpHdr> " scope="PUBLIC" type="ptMethod" line="9367">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="SetAlign" args="<nAlign> " scope="PUBLIC" type="ptMethod" line="9352">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="SetProgBar" args="<nProgTotal>, <nWidth>, <bClrProg> " scope="PUBLIC" type="ptMethod" line="9332">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="CheckToggle" args="<lOverRide> " scope="PUBLIC" type="ptMethod" line="9316">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="SetCheck" args="<aBmps>, <uEdit>, <aPrompts> " scope="PUBLIC" type="ptMethod" line="9276">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="nAlphaLevel" args="<uNew> " scope="PUBLIC" type="ptMethod" line="9262">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="SameColAs" args="<u> " scope="PUBLIC" type="ptMethod" line="9231">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="BlankValue" args=" " scope="PUBLIC" type="ptMethod" line="9207">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="Value" args="<uNew> " scope="PUBLIC" type="ptMethod" line="9164">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="Adjust" args=" " scope="PUBLIC" type="ptMethod" line="8954">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="End" args=" " scope="PUBLIC" type="ptMethod" line="8925">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="New" args="<oBrw> " scope="PUBLIC" type="ptMethod" line="8905">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="VarPut" args="<uVal> " scope="PUBLIC" type="ptFunction" line="8880">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="VarGet" args=" " scope="PUBLIC" type="ptFunction" line="8879">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="AddBitmap" args="<uBmp> " scope="PUBLIC" type="ptFunction" line="8805">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="SetExcelLanguage" args="<oExcel> " scope="PUBLIC" type="ptFunction" line="8600">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="AddOdbfCol" args="<oBrw>, <cCol>, <aStruct> " scope="PUBLIC" type="ptFunction" line="8579">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="SetColFromRDD" args="<oCol>, <uData> " scope="PUBLIC" type="ptFunction" line="8451">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="GenMenuBlock" args="<aCols>, <nFor> " scope="PUBLIC" type="ptFunction" line="8441">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="SeekOnArray" args="<Self>, <aData>, <cSeek> " scope="PUBLIC" type="ptFunction" line="8399">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="ArrayIncrFilter" args="<cSeek>, <nGoTo> " scope="PUBLIC" type="ptMethod" line="8326">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="ArrayIncrSeek" args="<cSeek>, <nGoTo> " scope="PUBLIC" type="ptMethod" line="8281">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="AdoSkip" args="<oRs>, <n> " scope="PUBLIC" type="ptFunction" line="8264">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="RepTreeFor" args="<oBrw>, <oRep>, <nCols>, <nLevels> " scope="PUBLIC" type="ptFunction" line="8250">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="MakeRepTreeGroup" args="<oBrw>, <oRep>, <n> " scope="PUBLIC" type="ptFunction" line="8242">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="MakeRepGroup" args="<oCol> " scope="PUBLIC" type="ptFunction" line="8231">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="MakeRepCol" args="<oRep>, <oXCol> " scope="PUBLIC" type="ptFunction" line="8193">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="treerecno" args="<oItem> " scope="PUBLIC" type="ptFunction" line="8183">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="OnError" args="<uParam1> " scope="PUBLIC" type="ptMethod" line="8127">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="NcMouseMove" args="<nHitTestCode>, <nRow>, <nCol> " scope="PUBLIC" type="ptMethod" line="8118">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="DestroyToolTip" args=" " scope="PUBLIC" type="ptMethod" line="8109">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="aCellCoor" args="<nRow>, <nCol> " scope="PUBLIC" type="ptMethod" line="8093">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="Edit" args="<lNew>, <cFieldList>, <lSourceData> " scope="PUBLIC" type="ptMethod" line="8073">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="DataRow" args="<lNew>, <cFieldList>, <lSourceData> " scope="PUBLIC" type="ptMethod" line="8052">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="CurrentRow" args=" " scope="PUBLIC" type="ptMethod" line="8034">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="PasteUnformattedText" args="<oCalc>, <oBook>, <oSheet>, <aCols> " scope="PUBLIC" type="ptFunction" line="7982">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="CalcSubTotal" args="<oCalc>, <oBook>, <oSheet>, <nGroupBy>, <aTotals>, <nRow>, <nCol> " scope="PUBLIC" type="ptFunction" line="7960">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="GetNumberFormatId" args="<oBook>, <cNumberFormat>, <cColHeader>, <cDataType> " scope="PUBLIC" type="ptFunction" line="7928">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="GetPropertyValue" args="<oService>, <cName>, <xValue> " scope="PUBLIC" type="ptFunction" line="7919">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="MakeColAlphabet" args="<nCol> " scope="PUBLIC" type="ptFunction" line="7900">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="MakeColAlphabet" args="<nCol> " scope="PUBLIC" type="ptFunction" line="7883">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="ToDbf" args="<cFile>, <bProgress>, <aCols>, <lPrompt> " scope="PUBLIC" type="ptMethod" line="7773">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="ToCalc" args="<bProgress>, <nGroupBy>, <nPasteMode>, <aSaveAs>, <aCols> " scope="PUBLIC" type="ptMethod" line="7450">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="ToExcel" args="<bProgress>, <nGroupBy>, <aCols> " scope="PUBLIC" type="ptMethod" line="7163">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="Report" args="<cTitle>, <lPreview>, <lModal>, <bSetUp>, <aGroupBy>, <cPDF> " scope="PUBLIC" type="ptMethod" line="7026">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="MakeTotals" args="<aCols> " scope="PUBLIC" type="ptMethod" line="6950">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="Eval" args="<bBlock>, <bFor>, <bWhile>, <nNext>, <nRec>, <lRest> " scope="PUBLIC" type="ptMethod" line="6916">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="Paste" args="<cText> " scope="PUBLIC" type="ptMethod" line="6809">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="Copy" args=" " scope="PUBLIC" type="ptMethod" line="6776">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="ClpRow" args="<lFullRow>, <aCols> " scope="PUBLIC" type="ptMethod" line="6757">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="FontSize" args="<nPlus> " scope="PUBLIC" type="ptMethod" line="6725">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="SelFont" args=" " scope="PUBLIC" type="ptMethod" line="6706">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="GoNextCtrl" args="<hWnd> " scope="PUBLIC" type="ptMethod" line="6513">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="SetColumns" args="<nRow>, <nCol>, <nFlags> " scope="PUBLIC" type="ptMethod" line="6484">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="Seek" args="<cSeek> " scope="PUBLIC" type="ptMethod" line="6372">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="Select" args="<nOperation> " scope="PUBLIC" type="ptMethod" line="6232">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="CancelEdit" args=" " scope="PUBLIC" type="ptMethod" line="6183">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="OldRestoreState" args="<cState> " scope="PUBLIC" type="ptMethod" line="6125">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="RestoreState" args="<cState> " scope="PUBLIC" type="ptMethod" line="6097">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="SaveState" args="<aAdditionalData> " scope="PUBLIC" type="ptMethod" line="6080">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="ReArrangeCols" args="<aSeq>, <lRetainRest>, <lReNumber> " scope="PUBLIC" type="ptMethod" line="6034">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="MoveCol" args="<xFrom>, <xTo>, <lRefresh>, <lUser> " scope="PUBLIC" type="ptMethod" line="5977">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="SwapCols" args="<xCol1>, <xCol2>, <lRefresh> " scope="PUBLIC" type="ptMethod" line="5945">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="DelCol" args="<nPos> " scope="PUBLIC" type="ptMethod" line="5797">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="InsCol" args="<nPos> " scope="PUBLIC" type="ptMethod" line="5772">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="AddCol" args=" " scope="PUBLIC" type="ptMethod" line="5758">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="cBmpAdjBrush" args="<cFile> " scope="PUBLIC" type="ptMethod" line="5750">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="DataRect" args=" " scope="PUBLIC" type="ptMethod" line="5732">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="MakeBrush" args=" " scope="PUBLIC" type="ptMethod" line="5718">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="SetBackGround" args="<uBack>, <uBckMode> " scope="PUBLIC" type="ptMethod" line="5654">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="SetGroupTotal" args="<aCols>, <cHead>, <nType>, <oFont> " scope="PUBLIC" type="ptMethod" line="5604">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="SetGroupHeader" args="<cGrpHdr>, <nFrom>, <nUpto>, <oFont> " scope="PUBLIC" type="ptMethod" line="5574">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="SetColsData" args="<cData>, <aValues>, <lByCreationOrder> " scope="PUBLIC" type="ptMethod" line="5544">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="GetColsData" args="<cData>, <lByCreationOrder> " scope="PUBLIC" type="ptMethod" line="5521">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="SetoDbf" args="<oDbf>, <aCols>, <lAutoSort>, <lAutoCols>, <aRows> " scope="PUBLIC" type="ptMethod" line="5408">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="SetColsForTree" args="<uData> " scope="PUBLIC" type="ptMethod" line="5392">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="SetTree" args="<oTree>, <aResource>, <bOnSkip>, <aCols> " scope="PUBLIC" type="ptMethod" line="5311">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="MysqlSeek" args="<oMysql>, <uSeek>, <lSoft>, <lWildSeek> " scope="PUBLIC" type="ptFunction" line="5249">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="DolphinSeek" args="<c>, <oBrw>, <cQryWhere> " scope="PUBLIC" type="ptFunction" line="5178">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="AdoIncrSeek" args="<uSeek> " scope="PUBLIC" type="ptMethod" line="5095">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="RddIncrFilter" args="<cExpr>, <uSeek> " scope="PUBLIC" type="ptMethod" line="5043">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="RddIncrSeek" args="<cExpr>, <uSeek> " scope="PUBLIC" type="ptMethod" line="4998">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="SetColFromMySQL" args="<cnCol>, <cHeader>, <lAutoOrder>, <aQryFldNames> " scope="PUBLIC" type="ptMethod" line="4915">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="RsExprnBlock" args="<aFldNames>, <cStr>, <bReplace> " scope="PUBLIC" type="ptFunction" line="4885">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="XbrAdoDateIO" args="<dNew>, <oCol>, <cnCol> " scope="PUBLIC" type="ptFunction" line="4862">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="SetColFromADO" args="<cnCol>, <lAutoOrder>, <aRsColNames>, <lJet> " scope="PUBLIC" type="ptMethod" line="4714">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="aJustify" args="<aNew> " scope="PUBLIC" type="ptMethod" line="4679">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="ClearBlocks" args=" " scope="PUBLIC" type="ptMethod" line="4667">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="SetDolphin" args="<oQry>, <lAddCols>, <lAutoOrder>, <aFldNames>, <bSeptup> " scope="PUBLIC" type="ptMethod" line="4580">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="SetMySql" args="<oMysql>, <lAddCols>, <lAutoOrder>, <aFldNames> " scope="PUBLIC" type="ptMethod" line="4513">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="SetAdO" args="<oRs>, <lAddCols>, <lAutoOrder>, <aFldNames> " scope="PUBLIC" type="ptMethod" line="4417">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="ExcelColBlock" args="<oBrw>, <nCol> " scope="PUBLIC" type="ptFunction" line="4410">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="SetExcelRange" args="<oRange>, <lHeaders>, <aCols> " scope="PUBLIC" type="ptMethod" line="4359">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="ArrCellSet" args="<nRow>, <nCol>, <uNewVal> " scope="PUBLIC" type="ptMethod" line="4334">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="ArrCell" args="<nRow>, <nCol>, <cPic>, <lDispZeros> " scope="PUBLIC" type="ptMethod" line="4296">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="ArrCalcWidths" args="<aData>, <aCols> " scope="PUBLIC" type="ptFunction" line="4246">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="HashEditBlock" args="<oBrw>, <c> " scope="PUBLIC" type="ptFunction" line="4241">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="SetArray" args="<aData>, <lAutoOrder>, <nColOrder>, <aCols>, <bOnSkip> " scope="PUBLIC" type="ptMethod" line="4062">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="SetRDD" args="<lAddColumns>, <lAutoOrder>, <aFldNames>, <aRows> " scope="PUBLIC" type="ptMethod" line="3924">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="GetDlgCode" args="<nLastKey> " scope="PUBLIC" type="ptMethod" line="3906">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="HorzLine" args="<nRow>, <nOperation>, <nLine> " scope="PUBLIC" type="ptMethod" line="3861">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="MouseWheel" args="<nKeys>, <nDelta>, <nXPos>, <nYPos> " scope="PUBLIC" type="ptMethod" line="3832">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="RButtonDown" args="<nRow>, <nCol>, <nKeyFlags> " scope="PUBLIC" type="ptMethod" line="3747">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="LDblClick" args="<nRow>, <nCol>, <nKeyFlags> " scope="PUBLIC" type="ptMethod" line="3708">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="MouseMove" args="<nRow>, <nCol>, <nKeyFlags> " scope="PUBLIC" type="ptMethod" line="3506">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="MouseLeave" args="<nRow>, <nCol>, <nFlags> " scope="PUBLIC" type="ptMethod" line="3495">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="LButtonUp" args="<nRow>, <nCol>, <nFlags> " scope="PUBLIC" type="ptMethod" line="3401">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="LButtonDown" args="<nRow>, <nCol>, <nFlags> " scope="PUBLIC" type="ptMethod" line="3242">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="SetPos" args="<nRow>, <nCol>, <lPixel> " scope="PUBLIC" type="ptMethod" line="3168">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="MouseColPos" args="<nCol> " scope="PUBLIC" type="ptMethod" line="3137">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="MouseRowPos" args="<nRow> " scope="PUBLIC" type="ptMethod" line="3118">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="MouseAtFooter" args="<nRow>, <nCol> " scope="PUBLIC" type="ptMethod" line="3112">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="MouseAtHeader" args="<nRow>, <nCol> " scope="PUBLIC" type="ptMethod" line="3106">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="ColPos" args="<oCol> " scope="PUBLIC" type="ptMethod" line="3096">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="GoBottom" args=" " scope="PUBLIC" type="ptMethod" line="3064">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="GoTop" args=" " scope="PUBLIC" type="ptMethod" line="3040">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="PageDown" args="<nLines> " scope="PUBLIC" type="ptMethod" line="3006">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="PageUp" args="<nLines> " scope="PUBLIC" type="ptMethod" line="2959">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="GoDown" args="<nDown> " scope="PUBLIC" type="ptMethod" line="2883">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="GoUp" args="<nUp> " scope="PUBLIC" type="ptMethod" line="2804">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="VScroll" args="<nWParam>, <nLParam> " scope="PUBLIC" type="ptMethod" line="2735">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="GoRightMost" args=" " scope="PUBLIC" type="ptMethod" line="2710">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="GoLeftMost" args=" " scope="PUBLIC" type="ptMethod" line="2691">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="GoRight" args="<lOffset>, <lRefresh> " scope="PUBLIC" type="ptMethod" line="2625">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="GoLeft" args="<lOffset>, <lRefresh> " scope="PUBLIC" type="ptMethod" line="2581">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="GoToCol" args="<oCol> " scope="PUBLIC" type="ptMethod" line="2542">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="SelectCol" args="<nCol>, <lOffset> " scope="PUBLIC" type="ptMethod" line="2515">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="HScroll" args="<nWParam>, <nLParam> " scope="PUBLIC" type="ptMethod" line="2470">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="KeyChar" args="<nKey>, <nFlags> " scope="PUBLIC" type="ptMethod" line="2369">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="KeyDown" args="<nKey>, <nFlags> " scope="PUBLIC" type="ptMethod" line="2245">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="ColStretch" args="<nStretchCol> " scope="PUBLIC" type="ptMethod" line="2176">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="LastDisplayPos" args="<lComplete> " scope="PUBLIC" type="ptMethod" line="2135">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="IsDisplayPosVisible" args="<nPos>, <lComplete> " scope="PUBLIC" type="ptMethod" line="2101">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="GetDisplayColsWidth" args="<aSizes> " scope="PUBLIC" type="ptMethod" line="2078">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="GetVisibleCols" args=" " scope="PUBLIC" type="ptMethod" line="2058">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="GetDisplayCols" args=" " scope="PUBLIC" type="ptMethod" line="1976">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="oCol" args="<u> " scope="PUBLIC" type="ptMethod" line="1969">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="EraseData" args="<nRow> " scope="PUBLIC" type="ptMethod" line="1924">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="DrawLine" args="<lSelected>, <nRowSel> " scope="PUBLIC" type="ptMethod" line="1776">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="PaintFooter" args="<hDC>, <aCols>, <nLast>, <nBrwWidth>, <nBrwHeight>, <hWhitePen>, <hGrayPen> " scope="PUBLIC" type="ptMethod" line="1733">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="PaintHeader" args="<hDC>, <aCols>, <nLast>, <hWhitePen>, <hGrayPen>, <hColPen> " scope="PUBLIC" type="ptMethod" line="1655">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="Paint" args=" " scope="PUBLIC" type="ptMethod" line="1358">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="Display" args=" " scope="PUBLIC" type="ptMethod" line="1344">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="DelRepos" args=" " scope="PUBLIC" type="ptMethod" line="1315">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="CalcRowSelPos" args=" " scope="PUBLIC" type="ptMethod" line="1287">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="Refresh" args="<lComplete> " scope="PUBLIC" type="ptMethod" line="1257">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="Change" args="<lRow> " scope="PUBLIC" type="ptMethod" line="1241">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="CalcHdrHeight" args=" " scope="PUBLIC" type="ptMethod" line="1168">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="Adjust" args=" " scope="PUBLIC" type="ptMethod" line="1015">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="BrwFitSize" args="<lReSize>, <nMaxRows> " scope="PUBLIC" type="ptMethod" line="978">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="CheckSize" args=" " scope="PUBLIC" type="ptMethod" line="959">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="Initiate" args="<hDlg> " scope="PUBLIC" type="ptMethod" line="882">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="cGenPrg" args=" " scope="PUBLIC" type="ptMethod" line="863">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="CreateFromResource" args="<nId> " scope="PUBLIC" type="ptMethod" line="843">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="CreateFromCode" args=" " scope="PUBLIC" type="ptMethod" line="802">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="Destroy" args=" " scope="PUBLIC" type="ptMethod" line="746">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="New" args="<oWnd> " scope="PUBLIC" type="ptMethod" line="631">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="Delete" args=" " scope="PUBLIC" type="ptFunction" line="623">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="EditSource" args="<lNew>, <cFieldList> " scope="PUBLIC" type="ptFunction" line="620">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="RefreshFooters" args=" " scope="PUBLIC" type="ptFunction" line="601">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="RefreshCurrent" args=" " scope="PUBLIC" type="ptFunction" line="598">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="DrawSelect" args=" " scope="PUBLIC" type="ptFunction" line="597">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="DataHeight" args=" " scope="PUBLIC" type="ptFunction" line="586">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="FooterRow" args=" " scope="PUBLIC" type="ptFunction" line="584">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="LastRow" args=" " scope="PUBLIC" type="ptFunction" line="583">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="FirstRow" args=" " scope="PUBLIC" type="ptFunction" line="582">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="FooterHeight" args=" " scope="PUBLIC" type="ptFunction" line="579">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="HeaderHeight" args=" " scope="PUBLIC" type="ptFunction" line="578">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="BrwHeight" args=" " scope="PUBLIC" type="ptFunction" line="576">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="BrwWidth" args=" " scope="PUBLIC" type="ptFunction" line="575">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="SelectedCol" args=" " scope="PUBLIC" type="ptFunction" line="563">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="ColAtPos" args="<nPos> " scope="PUBLIC" type="ptFunction" line="561">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="VGoTop" args=" " scope="PUBLIC" type="ptFunction" line="555">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="VGoBottom" args=" " scope="PUBLIC" type="ptFunction" line="554">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="VGetThumbPos" args="<nPos> " scope="PUBLIC" type="ptFunction" line="552">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="VGoUp" args=" " scope="PUBLIC" type="ptFunction" line="548">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="VGoDown" args=" " scope="PUBLIC" type="ptFunction" line="547">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="VGetMax" args=" " scope="PUBLIC" type="ptFunction" line="545">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="VSetRange" args="<nMin>, <nMax> " scope="PUBLIC" type="ptFunction" line="541">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="VGetPos" args=" " scope="PUBLIC" type="ptFunction" line="538">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="VThumbPos" args="<nPos> " scope="PUBLIC" type="ptFunction" line="536">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="VSetPos" args="<nPos> " scope="PUBLIC" type="ptFunction" line="533">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="VUpdateAll" args=" " scope="PUBLIC" type="ptFunction" line="528">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="VUpdatePos" args=" " scope="PUBLIC" type="ptFunction" line="527">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="HasBorder" args="<lEx> " scope="PUBLIC" type="ptFunction" line="505">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="AddBitmap" args="<uBmp> " scope="PUBLIC" type="ptFunction" line="477">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="SelectNone" args=" " scope="PUBLIC" type="ptFunction" line="463">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="SelectAll" args=" " scope="PUBLIC" type="ptFunction" line="462">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="SaveData" args=" " scope="PUBLIC" type="ptFunction" line="447">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="UnLock" args=" " scope="PUBLIC" type="ptFunction" line="446">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="Lock" args=" " scope="PUBLIC" type="ptFunction" line="445">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="Eof" args=" " scope="PUBLIC" type="ptFunction" line="439">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="Bof" args=" " scope="PUBLIC" type="ptFunction" line="438">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="Skip" args="<n> " scope="PUBLIC" type="ptFunction" line="437">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="EraseBkGnd" args="<hDC> " scope="PUBLIC" type="ptFunction" line="373">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="nAt" args=" " scope="PUBLIC" type="ptFunction" line="371">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="\" args="<|><[><x>, <.><.><.><]><|> " scope="PUBLIC" type="ptPseudoFUNC" line="113">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="HB_TToS" args="<t> " scope="PUBLIC" type="ptPseudoFUNC" line="107">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="HB_CToT" args="<c> " scope="PUBLIC" type="ptPseudoFUNC" line="106">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="HB_HEXTOSTR" args="<c> " scope="PUBLIC" type="ptPseudoFUNC" line="105">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="HB_STRTOHEX" args="<c> " scope="PUBLIC" type="ptPseudoFUNC" line="104">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="hb_WildMatch" args="<a>, <b><[>, <c><]> " scope="PUBLIC" type="ptPseudoFUNC" line="103">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="hb_hCaseMatch" args="<h>, <n> " scope="PUBLIC" type="ptPseudoFUNC" line="102">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="hb_hValueAt" args="<h>, <n> " scope="PUBLIC" type="ptPseudoFUNC" line="101">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="hb_hKeyAt" args="<h>, <n> " scope="PUBLIC" type="ptPseudoFUNC" line="100">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="PM_REMOVE" args=" " scope="PUBLIC" type="ptConstant" line="97">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="WM_MOUSELEAVE" args=" " scope="PUBLIC" type="ptConstant" line="96">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="TME_LEAVE" args=" " scope="PUBLIC" type="ptConstant" line="95">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="VSCROLL_MAXVALUE" args=" " scope="PUBLIC" type="ptConstant" line="93">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="BITMAP_ALPHA" args=" " scope="PUBLIC" type="ptConstant" line="91">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="BITMAP_ZEROCLR" args=" " scope="PUBLIC" type="ptConstant" line="90">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="BITMAP_HEIGHT" args=" " scope="PUBLIC" type="ptConstant" line="89">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="BITMAP_WIDTH" args=" " scope="PUBLIC" type="ptConstant" line="88">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="BITMAP_PALETTE" args=" " scope="PUBLIC" type="ptConstant" line="87">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="BITMAP_HANDLE" args=" " scope="PUBLIC" type="ptConstant" line="86">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="RECORDSELECTOR_WIDTH" args=" " scope="PUBLIC" type="ptConstant" line="84">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="BMP_EXTRAWIDTH" args=" " scope="PUBLIC" type="ptConstant" line="82">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="COL_SEPARATOR" args=" " scope="PUBLIC" type="ptConstant" line="81">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="ROW_EXTRAHEIGHT" args=" " scope="PUBLIC" type="ptConstant" line="80">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="COL_EXTRAWIDTH" args=" " scope="PUBLIC" type="ptConstant" line="79">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="MK_MBUTTON" args=" " scope="PUBLIC" type="ptConstant" line="77">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="DT_HIDEPREFIX" args=" " scope="PUBLIC" type="ptConstant" line="75">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="DT_NOFULLWIDTHCHARBREAK" args=" " scope="PUBLIC" type="ptConstant" line="74">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="DT_WORD_ELLIPSIS" args=" " scope="PUBLIC" type="ptConstant" line="73">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="DT_RTLREADING" args=" " scope="PUBLIC" type="ptConstant" line="72">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="DT_MODIFYSTRING" args=" " scope="PUBLIC" type="ptConstant" line="71">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="DT_END_ELLIPSIS" args=" " scope="PUBLIC" type="ptConstant" line="70">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="DT_PATH_ELLIPSIS" args=" " scope="PUBLIC" type="ptConstant" line="69">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="DT_EDITCONTROL" args=" " scope="PUBLIC" type="ptConstant" line="68">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="DT_INTERNAL" args=" " scope="PUBLIC" type="ptConstant" line="67">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="DT_NOPREFIX" args=" " scope="PUBLIC" type="ptConstant" line="66">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="DT_CALCRECT" args=" " scope="PUBLIC" type="ptConstant" line="65">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="DT_EXTERNALLEADING" args=" " scope="PUBLIC" type="ptConstant" line="64">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="DT_NOCLIP" args=" " scope="PUBLIC" type="ptConstant" line="63">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="DT_TABSTOP" args=" " scope="PUBLIC" type="ptConstant" line="62">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="DT_EXPANDTABS" args=" " scope="PUBLIC" type="ptConstant" line="61">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="DT_SINGLELINE" args=" " scope="PUBLIC" type="ptConstant" line="60">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="DT_WORDBREAK" args=" " scope="PUBLIC" type="ptConstant" line="59">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="DT_BOTTOM" args=" " scope="PUBLIC" type="ptConstant" line="58">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="DT_VCENTER" args=" " scope="PUBLIC" type="ptConstant" line="57">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="DT_RIGHT" args=" " scope="PUBLIC" type="ptConstant" line="56">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="DT_CENTER" args=" " scope="PUBLIC" type="ptConstant" line="55">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="DT_LEFT" args=" " scope="PUBLIC" type="ptConstant" line="54">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="DT_TOP" args=" " scope="PUBLIC" type="ptConstant" line="53">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="COLOR_BTNHIGHLIGHT" args=" " scope="PUBLIC" type="ptConstant" line="51">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="COLOR_INACTIVECAPTIONTEXT" args=" " scope="PUBLIC" type="ptConstant" line="50">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="COLOR_BTNTEXT" args=" " scope="PUBLIC" type="ptConstant" line="49">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="COLOR_GRAYTEXT" args=" " scope="PUBLIC" type="ptConstant" line="48">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="COLOR_BTNSHADOW" args=" " scope="PUBLIC" type="ptConstant" line="47">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="COLOR_BTNFACE" args=" " scope="PUBLIC" type="ptConstant" line="46">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="COLOR_HIGHLIGHTTEXT" args=" " scope="PUBLIC" type="ptConstant" line="45">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="COLOR_HIGHLIGHT" args=" " scope="PUBLIC" type="ptConstant" line="44">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="COLOR_APPWORKSPACE" args=" " scope="PUBLIC" type="ptConstant" line="43">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="COLOR_INACTIVEBORDER" args=" " scope="PUBLIC" type="ptConstant" line="42">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="COLOR_ACTIVEBORDER" args=" " scope="PUBLIC" type="ptConstant" line="41">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="COLOR_CAPTIONTEXT" args=" " scope="PUBLIC" type="ptConstant" line="40">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="COLOR_WINDOWTEXT" args=" " scope="PUBLIC" type="ptConstant" line="39">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="COLOR_MENUTEXT" args=" " scope="PUBLIC" type="ptConstant" line="38">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="COLOR_WINDOWFRAME" args=" " scope="PUBLIC" type="ptConstant" line="37">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="COLOR_WINDOW" args=" " scope="PUBLIC" type="ptConstant" line="36">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="COLOR_MENU" args=" " scope="PUBLIC" type="ptConstant" line="35">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="COLOR_INACTIVECAPTION" args=" " scope="PUBLIC" type="ptConstant" line="34">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="COLOR_ACTIVECAPTION" args=" " scope="PUBLIC" type="ptConstant" line="33">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="COLOR_BACKGROUND" args=" " scope="PUBLIC" type="ptConstant" line="32">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="COLOR_SCROLLBAR" args=" " scope="PUBLIC" type="ptConstant" line="31">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="CS_DBLCLKS" args=" " scope="PUBLIC" type="ptConstant" line="29">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="SM_CYHSCROLL" args=" " scope="PUBLIC" type="ptConstant" line="27">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="SM_CYVSCROLL" args=" " scope="PUBLIC" type="ptConstant" line="26">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="GW_HWNDNEXT" args=" " scope="PUBLIC" type="ptConstant" line="24">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="GW_HWNDFIRST" args=" " scope="PUBLIC" type="ptConstant" line="23">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="GWL_EXSTYLE" args=" " scope="PUBLIC" type="ptConstant" line="21">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="GWL_STYLE" args=" " scope="PUBLIC" type="ptConstant" line="20">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="SRCCOPY" args=" " scope="PUBLIC" type="ptConstant" line="18">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="DbSkipper" args=" " scope="PUBLIC" type="ptConstant" line="14">
+   <tag filename="C:\Fwh1312\source\classes\xbrowse.prg" name="MinMax" args="<xValue>, <nMin>, <nMax> " scope="PUBLIC" type="ptPseudoFUNC" line="10">
+</taglist>

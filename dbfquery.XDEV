@@ -1,0 +1,42 @@
+<!--
+################################################
+# xDevStudio Project - xdev@kssoftware.com.br  #
+# Created @ 20/07/2014 11:53:59                #
+#                                              #
+### Standard xDev Config - Layout v1.5 #########
+-->
+<project>
+   <option compiler="449997">
+   <option outputname="dbfquery">
+   <option targettype="EXE">
+   <option outputpath="">
+   <option root="($)">
+   <option runpath="C:\Sistemas\Integrad Ldf">
+   <option runparams="">
+   <option pathch="">
+   <option pathlib="">
+   <option pathobj="">
+   <option pathtooutput="">
+   <option defines="">
+   <option webframework="">
+   <option webrootdir="">
+   <option documentroot="">
+   <option custombrowser="">
+   <option makeincfile="Não">
+   <option taskprepare="">
+   <option taskfinalize="">
+   <option taskgroupprepare="">
+   <option taskgroupfinalize="">
+
+   <compilerparam name="FiveWin32.xCompiler">
+      <option presetsname="209999,471317,449997">
+      <option fusesqllibfirst="Não">
+      <option rdd2="Sim">
+   </compilerparam>
+
+   <unit filename="principal.prg" main="true" compile="Sim">
+   <unit filename="XP.res" compile="Sim">
+   <unit filename="C:\bcc582\Lib\PSDK\psapi.lib" compile="Sim">
+   <unit filename="C:\Bcc582\Lib\ws2_32.lib" compile="Sim">
+   <unit filename="C:\Fwh1312\source\classes\xbrowse.prg" compile="Sim">
+</project>
