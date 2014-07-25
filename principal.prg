@@ -3,8 +3,10 @@
 #Include "ado.ch"
 #define COMPILAR(x) &(x)
 #DEFINE DIRAPP CurDrive()+":\"+CurDir()
+#DEFINE ARQAPP GetWinDir()+"\DBFQ.INI"
+REQUEST DBFCDX
 Function Main
-   Public oJanelaPrincipal,oBrowserDeDados,oMsgBar,oMsgRecNo,oMsgTagName
+   Public oJanelaPrincipal,oBrowserDeDados,oMsgBar,oMsgRecNo,oMsgTagName,oIni
 	Public cTituloAplicacao := "DbfQuery Beta ® - "+ FWVERSION+" - "+Version()+" - "+str(Year(date()))+" "
 	Public cDiretorioDeDados:=Space(200),oGetConsulta,oFontConsulta,oRecordSetConsulta:=nil,aTabelas:={}
 
@@ -18,8 +20,33 @@ Function Main
    SET _3DLOOK ON
 
    SetBalloon( .T. )
+   SetResDebug( .t. )
+	oIni     := TIni():New(ARQAPP)
+   if !File(ARQAPP)
+       MemoWrit(ARQAPP,"")
+  	    oIni:Set("DBFQUERY","DIRETORIO",DIRAPP)
+   endif	
 
-   DEFINE ICON   oIconeAplicacao   RESOURCE "ICON"
+
+// ADOCONNECT oCn TO MSSQL SERVER 'MATHEUS\SQLEXPRESS' USER 'sa' PASSWORD 'matrix' 
+//	oCn:Execute('SET DATEFORMAT YMD') // MUDA DATA PARA O FORMATO USADO PELO SQL 
+//	Try
+//		oCn:Execute('CREATE DATABASE INTELIGENCE') // MUDA DATA PARA O FORMATO USADO PELO SQL 
+//	End	
+//	oCn:Execute('USE INTELIGENCE') // MUDA DATA PARA O FORMATO USADO PELO SQL 
+//	SysRefresh()
+	
+//	aArquivosDbf:= Directory(DIRAPP+"\*.dbf")
+//	cArquivo:={}
+//	nIni:=time()
+//	for each cArquivo in aArquivosDbf
+//	 	 FW_AdoImportFromDBF( oCn, DIRAPP+"\"+cArquivo[1], StrTran(cArquivo[1],Right(cArquivo[1],4) ))
+//	next 
+//	? ElapTime(nIni,time())
+	
+	
+   
+	DEFINE ICON   oIconeAplicacao   RESOURCE "ICON"
    DEFINE BITMAP oImagemDeFundo RESOURCE "IMAGEMDEFUNDO"
 
    DEFINE FONT oFontConsulta NAME "Courier New" Size 7.5,20
@@ -135,8 +162,10 @@ Function pesquisanoResultSet()
 			endif
 
 Function ExecutaConsulta()
-			Local oDlgConsulta,cSqlSintax:=space(5000),LSAVE:=.F.
-
+			Local oDlgConsulta
+			Local cSqlSintax:=oIni:Get("DBFQUERY","CONSULTA","")+space(5000)
+			Local lsave:=.F.
+         
 			Define Brush oBrush Resource "PEDRA"
 			Define Dialog oDlgConsulta Title "DbfQuery Beta ®- Executa Sql" Resource "DLG_CONSULTA" BRUSH oBrush Transparent
 
@@ -153,7 +182,8 @@ Function ExecutaConsulta()
 				if Empty(cSqlSintax)
 				  return .f.
 				else
-              MsgRun("Processando Consulta dos dados ....","Aguarde",{||SqlQuery( cSqlSintax )})
+              oIni:Set("DBFQUERY","CONSULTA",cSqlSintax)
+				  MsgRun("Processando Consulta dos dados ....","Aguarde",{||SqlQuery( cSqlSintax )})
 				  return .t.
 			   endif
 		   ENDIF
@@ -161,12 +191,8 @@ Function configuraDiretorio()
 			Local oDlgDiretorio,oBrush,lsave:=.f.
 			Local oGetDiretorioDeDados,cOldDiretorio
 
-			if ! Empty(cDiretorioDeDados)
-            cDiretorioDeDados:=cDiretorioDeDados+space(300)
-   		ELSE
-            cOldDiretorio:=cDiretorioDeDados
-   		endif
-   
+         cDiretorioDeDados:=oIni:Get("DBFQUERY","DIRETORIO",DIRAPP)+space(300)
+
 			Define Brush oBrush Resource "PEDRA"
 			Define Dialog oDlgDiretorio Title "DbfQuery Beta ®- Configurar Diretorio" Resource "JANELA_DIRETORIO" BRUSH oBrush Transparent
 
@@ -176,8 +202,10 @@ Function configuraDiretorio()
 
 			Activate Dialog oDlgDiretorio
 
-   		if !lsave
-            cDiretorioDeDados:=cOldDiretorio
+   		if lsave
+   		   if !Empty(oIni:Set("DBFQUERY","DIRETORIO",cDiretorioDeDados))
+					oIni:Set("DBFQUERY","DIRETORIO",cDiretorioDeDados)
+				endif	
 			endif
 Function SqlQuery( cSqlSintax )
    local uRet    := {} // Retorno com Registros
